@@ -1,0 +1,1167 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "e11e03ad49f0eefe7c871ee516434c41844e6d93"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "dotnet-cli-build/1.0.0-preview1-": {
+        "dependencies": {
+          "Microsoft.Build": "15.3.0-preview-000246-05",
+          "Microsoft.Build.Framework": "15.3.0-preview-000246-05",
+          "Microsoft.Build.Utilities.Core": "15.3.0-preview-000246-05",
+          "Microsoft.DotNet.Cli.Build.Framework": "1.0.0-preview1-",
+          "Microsoft.DotNet.PlatformAbstractions": "2.0.0-preview2-25331-01",
+          "Microsoft.DotNet.VersionTools": "1.0.27-prerelease-01611-04",
+          "NuGet.CommandLine.XPlat": "4.3.0-preview2-4082",
+          "System.Reflection.Metadata": "1.4.1-beta-24410-02",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Xml.XmlSerializer": "4.0.11",
+          "WindowsAzure.Storage": "7.2.1",
+          "shared-build-targets-utils": "1.0.0-preview1-"
+        },
+        "runtime": {
+          "dotnet-cli-build.dll": {}
+        }
+      },
+      "Microsoft.Build/15.3.0-preview-000246-05": {
+        "dependencies": {
+          "Microsoft.Build.Framework": "15.3.0-preview-000246-05",
+          "System.Collections": "4.3.0",
+          "System.Collections.Immutable": "1.3.1",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Diagnostics.Contracts": "4.0.1",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.TraceSource": "4.0.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.Pipes": "4.0.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Metadata": "1.4.1-beta-24410-02",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Xml.XPath.XmlDocument": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.5/Microsoft.Build.dll": {}
+        }
+      },
+      "Microsoft.Build.Framework/15.3.0-preview-000246-05": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Build.Framework.dll": {}
+        }
+      },
+      "Microsoft.Build.Runtime/15.1.1012": {
+        "dependencies": {
+          "Microsoft.Build": "15.3.0-preview-000246-05",
+          "Microsoft.Build.Framework": "15.3.0-preview-000246-05",
+          "Microsoft.Build.Tasks.Core": "15.1.1012",
+          "Microsoft.Build.Utilities.Core": "15.3.0-preview-000246-05"
+        }
+      },
+      "Microsoft.Build.Tasks.Core/15.1.1012": {
+        "dependencies": {
+          "Microsoft.Build.Framework": "15.3.0-preview-000246-05",
+          "Microsoft.Build.Utilities.Core": "15.3.0-preview-000246-05",
+          "System.Collections": "4.3.0",
+          "System.Collections.Immutable": "1.3.1",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.TraceSource": "4.0.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Metadata": "1.4.1-beta-24410-02",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Resources.Writer": "4.0.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Runtime.Serialization.Xml": "4.1.1",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Build.Tasks.Core.dll": {}
+        }
+      },
+      "Microsoft.Build.Utilities.Core/15.3.0-preview-000246-05": {
+        "dependencies": {
+          "Microsoft.Build.Framework": "15.3.0-preview-000246-05",
+          "System.Collections": "4.3.0",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.TraceSource": "4.0.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Runtime.Serialization.Xml": "4.1.1",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Build.Utilities.Core.dll": {}
+        }
+      },
+      "Microsoft.Data.Edm/5.6.4": {
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.Data.Edm.dll": {}
+        },
+        "resources": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.Data.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.Data.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.Data.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.Data.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Data.OData/5.6.4": {
+        "dependencies": {
+          "Microsoft.Data.Edm": "5.6.4",
+          "System.Spatial": "5.6.4"
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.Data.OData.dll": {}
+        },
+        "resources": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.Data.OData.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.Data.OData.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.Data.OData.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.Data.OData.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.Data.OData.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.Data.OData.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.Data.OData.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Data.Services.Client/5.6.4": {
+        "dependencies": {
+          "Microsoft.Data.OData": "5.6.4"
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.Data.Services.Client.dll": {}
+        },
+        "resources": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.DotNet.PlatformAbstractions/2.0.0-preview2-25331-01": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
+        }
+      },
+      "Microsoft.DotNet.VersionTools/1.0.27-prerelease-01611-04": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "NuGet.Packaging": "4.3.0-preview2-4082",
+          "NuGet.Versioning": "4.3.0-preview2-4082",
+          "System.Diagnostics.TraceSource": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/Microsoft.DotNet.VersionTools.dll": {}
+        }
+      },
+      "Microsoft.Extensions.CommandLineUtils/1.0.1": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.CommandLineUtils.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Newtonsoft.Json/9.0.1": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NuGet.CommandLine.XPlat/4.3.0-preview2-4082": {
+        "dependencies": {
+          "Microsoft.Build.Runtime": "15.1.1012",
+          "Microsoft.Extensions.CommandLineUtils": "1.0.1",
+          "NuGet.Commands": "4.3.0-preview2-4082",
+          "System.Collections.Immutable": "1.3.1",
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp1.0/NuGet.CommandLine.XPlat.dll": {}
+        }
+      },
+      "NuGet.Commands/4.3.0-preview2-4082": {
+        "dependencies": {
+          "NuGet.Configuration": "4.3.0-preview2-4082",
+          "NuGet.DependencyResolver.Core": "4.3.0-preview2-4082",
+          "NuGet.ProjectModel": "4.3.0-preview2-4082"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NuGet.Commands.dll": {}
+        }
+      },
+      "NuGet.Common/4.3.0-preview2-4082": {
+        "runtime": {
+          "lib/netstandard1.3/NuGet.Common.dll": {}
+        }
+      },
+      "NuGet.Configuration/4.3.0-preview2-4082": {
+        "dependencies": {
+          "NuGet.Common": "4.3.0-preview2-4082",
+          "System.Security.Cryptography.ProtectedData": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NuGet.Configuration.dll": {}
+        }
+      },
+      "NuGet.DependencyResolver.Core/4.3.0-preview2-4082": {
+        "dependencies": {
+          "NuGet.Frameworks": "4.3.0-preview2-4082",
+          "NuGet.LibraryModel": "4.3.0-preview2-4082",
+          "NuGet.Protocol": "4.3.0-preview2-4082"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NuGet.DependencyResolver.Core.dll": {}
+        }
+      },
+      "NuGet.Frameworks/4.3.0-preview2-4082": {
+        "runtime": {
+          "lib/netstandard1.3/NuGet.Frameworks.dll": {}
+        }
+      },
+      "NuGet.LibraryModel/4.3.0-preview2-4082": {
+        "dependencies": {
+          "NuGet.Frameworks": "4.3.0-preview2-4082",
+          "NuGet.Versioning": "4.3.0-preview2-4082"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NuGet.LibraryModel.dll": {}
+        }
+      },
+      "NuGet.Packaging/4.3.0-preview2-4082": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "NuGet.Common": "4.3.0-preview2-4082",
+          "NuGet.Packaging.Core": "4.3.0-preview2-4082"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NuGet.Packaging.dll": {}
+        }
+      },
+      "NuGet.Packaging.Core/4.3.0-preview2-4082": {
+        "dependencies": {
+          "NuGet.Common": "4.3.0-preview2-4082",
+          "NuGet.Frameworks": "4.3.0-preview2-4082",
+          "NuGet.Versioning": "4.3.0-preview2-4082"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NuGet.Packaging.Core.dll": {}
+        }
+      },
+      "NuGet.ProjectModel/4.3.0-preview2-4082": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "NuGet.DependencyResolver.Core": "4.3.0-preview2-4082"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NuGet.ProjectModel.dll": {}
+        }
+      },
+      "NuGet.Protocol/4.3.0-preview2-4082": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "NuGet.Configuration": "4.3.0-preview2-4082",
+          "NuGet.Packaging": "4.3.0-preview2-4082"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NuGet.Protocol.dll": {}
+        }
+      },
+      "NuGet.Versioning/4.3.0-preview2-4082": {
+        "runtime": {
+          "lib/netstandard1.0/NuGet.Versioning.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Collections.Immutable/1.3.1": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Collections.NonGeneric/4.0.1": {
+        "dependencies": {
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "System.Diagnostics.Contracts/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.Diagnostics.Contracts.dll": {}
+        }
+      },
+      "System.Diagnostics.Debug/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Diagnostics.TraceSource/4.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Globalization/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.Pipes/4.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.IO.Pipes.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.IO.Pipes.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Linq/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.Linq.dll": {}
+        }
+      },
+      "System.Private.DataContractSerialization/4.1.1": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Xml.XmlSerializer": "4.0.11"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Metadata/1.4.1-beta-24410-02": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Collections.Immutable": "1.3.1",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/System.Reflection.Metadata.dll": {}
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Resources.Writer/4.0.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.Encoding": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Resources.Writer.dll": {}
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "dependencies": {
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Xml/4.1.1": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Private.DataContractSerialization": "4.1.1",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Text.Encoding": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Xml.dll": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Spatial/5.6.4": {
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/System.Spatial.dll": {}
+        },
+        "resources": {
+          "lib/portable-net45+wp8+win8+wpa/de/System.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/System.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/System.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/System.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/System.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/System.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/System.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/System.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/System.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Threading.dll": {}
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Xml.XmlSerializer/4.0.11": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "System.Xml.XPath.XmlDocument/4.0.1": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
+        }
+      },
+      "WindowsAzure.Storage/7.2.1": {
+        "dependencies": {
+          "Microsoft.Data.OData": "5.6.4",
+          "Microsoft.Data.Services.Client": "5.6.4",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Spatial": "5.6.4"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
+      "Microsoft.DotNet.Cli.Build.Framework/1.0.0-preview1-": {
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "2.0.0-preview2-25331-01"
+        },
+        "runtime": {
+          "Microsoft.DotNet.Cli.Build.Framework.dll": {}
+        }
+      },
+      "shared-build-targets-utils/1.0.0-preview1-": {
+        "dependencies": {
+          "Microsoft.DotNet.Cli.Build.Framework": "1.0.0-preview1-",
+          "Microsoft.DotNet.PlatformAbstractions": "2.0.0-preview2-25331-01",
+          "System.Reflection.Metadata": "1.4.1-beta-24410-02",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Xml.XmlSerializer": "4.0.11",
+          "WindowsAzure.Storage": "7.2.1"
+        },
+        "runtime": {
+          "shared-build-targets-utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-cli-build/1.0.0-preview1-": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Build/15.3.0-preview-000246-05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dlWgSzsnvKMTyXAGxWn3Yh/wM/jftyJOcoGdyQrOafpA1TsCo/2qzSNPKnFNojBbk+mJlkFSqLbWrPNvkJW1Bw==",
+      "path": "microsoft.build/15.3.0-preview-000246-05",
+      "hashPath": "microsoft.build.15.3.0-preview-000246-05.nupkg.sha512"
+    },
+    "Microsoft.Build.Framework/15.3.0-preview-000246-05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ct7rY5NG0YwFcPuPkrkc/0X7oQqiP4BxOqZg8NkBZuwhkd8fQYwR7Cxrk2VthaxPDLKXH0nRGkLD/77V1Cwnyg==",
+      "path": "microsoft.build.framework/15.3.0-preview-000246-05",
+      "hashPath": "microsoft.build.framework.15.3.0-preview-000246-05.nupkg.sha512"
+    },
+    "Microsoft.Build.Runtime/15.1.1012": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vfbwI4XQrEHdP4wkln0vj3sbG4V+hgU2dEBJrPfKenHWH2fMrngwh3nM0q52+wqh9KK7DdEqw6xm38zKcWMFvw==",
+      "path": "microsoft.build.runtime/15.1.1012",
+      "hashPath": "microsoft.build.runtime.15.1.1012.nupkg.sha512"
+    },
+    "Microsoft.Build.Tasks.Core/15.1.1012": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HYg4+1D+kFtyRRnjWjoj3fowDu8UKxk/djyjvupKHRsG3ljJPUL0K35rP6/m36xfT/Y3s3CyGvo9k4Tjdgbqpw==",
+      "path": "microsoft.build.tasks.core/15.1.1012",
+      "hashPath": "microsoft.build.tasks.core.15.1.1012.nupkg.sha512"
+    },
+    "Microsoft.Build.Utilities.Core/15.3.0-preview-000246-05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ySeN/s5OqlltzK6Cw67vQ6rt3vBXGKF3Kj3z2PlPVyWfQLi19XUJauS0dugu4ytXV8RgGhUUw8RclRTCb2pFAw==",
+      "path": "microsoft.build.utilities.core/15.3.0-preview-000246-05",
+      "hashPath": "microsoft.build.utilities.core.15.3.0-preview-000246-05.nupkg.sha512"
+    },
+    "Microsoft.Data.Edm/5.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I9ea/CEOufddjjyRYIowshdeFj5SIqfWZ5conK/UIaFx2/jJ+PDRhQ5jcJTqTg/ediCa1C22TeRl/MmL9zwBew==",
+      "path": "microsoft.data.edm/5.6.4",
+      "hashPath": "microsoft.data.edm.5.6.4.nupkg.sha512"
+    },
+    "Microsoft.Data.OData/5.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Te71LAvjYppmBCLWomHvhVzKes3q8L5tmmDMSyLP7YrJMYG5/Ded8uJgxWWkUX/Vh11ZDpN2WXRByOg+BAHCYw==",
+      "path": "microsoft.data.odata/5.6.4",
+      "hashPath": "microsoft.data.odata.5.6.4.nupkg.sha512"
+    },
+    "Microsoft.Data.Services.Client/5.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-94XNZKwnpHuFAdR70kqNTMBv2ex9m+VVQX8dHknZgtlq+nTlZDgzFmahU0wsBaIqJWc3k8Z+FftQ2Voq9r0NWA==",
+      "path": "microsoft.data.services.client/5.6.4",
+      "hashPath": "microsoft.data.services.client.5.6.4.nupkg.sha512"
+    },
+    "Microsoft.DotNet.PlatformAbstractions/2.0.0-preview2-25331-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p8VIOituFMxDq3/BC5NfD8/SCqcAiovW9J/AAhKEzpEiL3l2WHN69OmbSu18SxJi5Wjo1b7F7cFBucUNAGEICA==",
+      "path": "microsoft.dotnet.platformabstractions/2.0.0-preview2-25331-01",
+      "hashPath": "microsoft.dotnet.platformabstractions.2.0.0-preview2-25331-01.nupkg.sha512"
+    },
+    "Microsoft.DotNet.VersionTools/1.0.27-prerelease-01611-04": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TJRiyQRhLUrAK1Gz8H8lLEEG0V4aUxS5MHzky3lioRs3Zy3bPWNSPnwvp0BZ3LxD8u1SbjiHdoR9b+xIVRzmPA==",
+      "path": "microsoft.dotnet.versiontools/1.0.27-prerelease-01611-04",
+      "hashPath": "microsoft.dotnet.versiontools.1.0.27-prerelease-01611-04.nupkg.sha512"
+    },
+    "Microsoft.Extensions.CommandLineUtils/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wTk8JFNIBF94m8gzbkjinkgdtD2SfZe8yu8847x8YsqDYYsHOT4siGZeFot3/061RfMm2W2QopRKyNkzz16V2A==",
+      "path": "microsoft.extensions.commandlineutils/1.0.1",
+      "hashPath": "microsoft.extensions.commandlineutils.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "path": "newtonsoft.json/9.0.1",
+      "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "NuGet.CommandLine.XPlat/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CYaA7Y59vxcIxE8qqOZoH5SaG/ggKzxwoElHgkO4U0PAfLtCxr5KHXxtrblpV8A6IXonn+Ne1morHX1r5ywPQQ==",
+      "path": "nuget.commandline.xplat/4.3.0-preview2-4082",
+      "hashPath": "nuget.commandline.xplat.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.Commands/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vAJlJ/HR12NZDCpCz1e4or+Bi0kF68+I0JrAt8B5plNPJ0zYl4QoYzeZUjUc88rj95TGnqo7sTSs4MafMGL1hg==",
+      "path": "nuget.commands/4.3.0-preview2-4082",
+      "hashPath": "nuget.commands.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.Common/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zvlwUX8QW45aawHiBI62Cb/+yqeW7NS61BJ0w0toJKs0HdZ7XvKjUSVPy7+BSJMkooi2Y6SN8sZEXSn+yz7LaQ==",
+      "path": "nuget.common/4.3.0-preview2-4082",
+      "hashPath": "nuget.common.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.Configuration/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bEVGAc1HqTa1/rCin1lUD/wlrVCBEZ0KaoQHLtYyH2u2DfUv93AamzHWPT3gOZ9T1LSKX94BIvjUG8Qiub2wQA==",
+      "path": "nuget.configuration/4.3.0-preview2-4082",
+      "hashPath": "nuget.configuration.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.DependencyResolver.Core/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e598aEzcv1PXDDb4/XQ9ZUQWWrk4+To4UuW6EwyF58X/jsalXb0v8G/lQ7JUFzzzpU5egTCEdjRNmasFNzjMvA==",
+      "path": "nuget.dependencyresolver.core/4.3.0-preview2-4082",
+      "hashPath": "nuget.dependencyresolver.core.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.Frameworks/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ydDEU31Dn3Yv5SyAtIIQR2DmCmt8doBE5upyHON1fbAxMpH5QeZZ/fap+t3+tWq3qF8pnmdIUeg5JqG1bXCN5Q==",
+      "path": "nuget.frameworks/4.3.0-preview2-4082",
+      "hashPath": "nuget.frameworks.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.LibraryModel/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JlMgy/TutgJ01RGaAzF3pz3wN152GL/9jVd7paKYdYQ5HDs/QrtJkvRGGFE+hm1F8XZ/uyhGqbms5JHXSYAsqA==",
+      "path": "nuget.librarymodel/4.3.0-preview2-4082",
+      "hashPath": "nuget.librarymodel.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.Packaging/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6UGF+PJUceuvOMTfcJq5fxpTSyPN/K/gmxhMGkCxinT9jmNjpxwjc+btExKaupK2VCRfJ9Px9NCj36pAzmYkIw==",
+      "path": "nuget.packaging/4.3.0-preview2-4082",
+      "hashPath": "nuget.packaging.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.Packaging.Core/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fbeuUAXBmEnLzKxU4ZlSSZHLPjXwHcD6gxIaj69w7fdEFhQ/9p7BtsCHKZRA5/eLZu+BfsiVFSgKJ7CpkcHn9g==",
+      "path": "nuget.packaging.core/4.3.0-preview2-4082",
+      "hashPath": "nuget.packaging.core.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.ProjectModel/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pCn5WAcO1p1ASBs7ylhpDrTGBuc28xYIrNKdHfHZVyFjAqkvnZLNcdyoMxcuZ1+lmQ3hPDZyvnhN4SboxO/qmA==",
+      "path": "nuget.projectmodel/4.3.0-preview2-4082",
+      "hashPath": "nuget.projectmodel.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.Protocol/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UneWSzuq5IMv9lQB8AFfv6JnO09U9aDgU+1OIDNkr5uh47UF+nGViPe2+l2/5vVProhU++U+yli5D3Sg9uD/Hg==",
+      "path": "nuget.protocol/4.3.0-preview2-4082",
+      "hashPath": "nuget.protocol.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "NuGet.Versioning/4.3.0-preview2-4082": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ayzkhiHU0/86MxHwSIN3X1Jx3kcwVkv5POJB75myJwhKjWzaJ9Ho/6lCnJfQ+9cotuDtYvNvErdZC755TaOJ2g==",
+      "path": "nuget.versioning/4.3.0-preview2-4082",
+      "hashPath": "nuget.versioning.4.3.0-preview2-4082.nupkg.sha512"
+    },
+    "System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "path": "system.collections/4.3.0",
+      "hashPath": "system.collections.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n+AGX7zmiZumW9aggOkXaHzUeAS3EfeTErnkKCusyONUozbTv+kMb8VE36m+ldV6kF9g57G2c641KCdgH9E0pg==",
+      "path": "system.collections.immutable/1.3.1",
+      "hashPath": "system.collections.immutable.1.3.1.nupkg.sha512"
+    },
+    "System.Collections.NonGeneric/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hMxFT2RhhlffyCdKLDXjx8WEC5JfCvNozAZxCablAuFRH74SCV4AgzE8yJCh/73bFnEoZgJ9MJmkjQ0dJmnKqA==",
+      "path": "system.collections.nongeneric/4.0.1",
+      "hashPath": "system.collections.nongeneric.4.0.1.nupkg.sha512"
+    },
+    "System.Diagnostics.Contracts/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HvQQjy712vnlpPxaloZYkuE78Gn353L0SJLJVeLcNASeg9c4qla2a1Xq8I7B3jZoDzKPtHTkyVO7AZ5tpeQGuA==",
+      "path": "system.diagnostics.contracts/4.0.1",
+      "hashPath": "system.diagnostics.contracts.4.0.1.nupkg.sha512"
+    },
+    "System.Diagnostics.Debug/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
+      "path": "system.diagnostics.debug/4.3.0",
+      "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.TraceSource/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6WVCczFZKXwpWpzd/iJkYnsmWTSFFiU24Xx/YdHXBcu+nFI/ehTgeqdJQFbtRPzbrO3KtRNjvkhtj4t5/WwWsA==",
+      "path": "system.diagnostics.tracesource/4.0.0",
+      "hashPath": "system.diagnostics.tracesource.4.0.0.nupkg.sha512"
+    },
+    "System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
+      "path": "system.globalization/4.3.0",
+      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.IO.Pipes/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L9QVhk8hIEix5KNA0kW58Ha+Y1dNGqqqIhAaJkhcGCWeQzUmN0njzI7SG/XAazpMecboOdFFlH3pH/qbwXLJAg==",
+      "path": "system.io.pipes/4.0.0",
+      "hashPath": "system.io.pipes.4.0.0.nupkg.sha512"
+    },
+    "System.Linq/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
+      "path": "system.linq/4.3.0",
+      "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Private.DataContractSerialization/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
+      "path": "system.private.datacontractserialization/4.1.1",
+      "hashPath": "system.private.datacontractserialization.4.1.1.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/1.4.1-beta-24410-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O4cf3Aj9ei/41mXdBduWdKzq0y/yuMIjUpC0YRWgfw7muYNbKWtyGNKVKysoiaFKESKFcKM6LPcwlPB9Umni2w==",
+      "path": "system.reflection.metadata/1.4.1-beta-24410-02",
+      "hashPath": "system.reflection.metadata.1.4.1-beta-24410-02.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "System.Resources.Writer/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hz+ZS81dVSNy93YyJhhL3GwzmMhfcQ8FbUooAt9MO4joIe0vPM4gclv0C82ko1tuN/Kw6CvZFLYkgk6n9xvEkg==",
+      "path": "system.resources.writer/4.0.0",
+      "hashPath": "system.resources.writer.4.0.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
+      "path": "system.runtime.extensions/4.3.0",
+      "hashPath": "system.runtime.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
+      "path": "system.runtime.serialization.primitives/4.1.1",
+      "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Xml/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yqfKHkWUAdI0hdDIdD9KDzluKtZ8IIqLF3O7xIZlt6UTs1bOvFRpCvRTvGQva3Ak/ZM9/nq9IHBJ1tC4Ybcrjg==",
+      "path": "system.runtime.serialization.xml/4.1.1",
+      "hashPath": "system.runtime.serialization.xml.4.1.1.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-glbkgV1ridcd6No8gYKU93QeXqJHaQvIve/jI0QUOxiD69JpG5pLVXSneMjuhX5SfjdILeOAuFh9PnCkTZ/aaA==",
+      "path": "system.security.cryptography.protecteddata/4.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.0.0.nupkg.sha512"
+    },
+    "System.Spatial/5.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BoXUQ0mHyeAbkR3qlhwXqUFxzJ7rZuFOrvFM/jZRk+S6JLI2JxXRKby6bxuWbmwYv2o/eRPQPbAOvEk5hB2Gmg==",
+      "path": "system.spatial/5.6.4",
+      "hashPath": "system.spatial.5.6.4.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
+      "path": "system.threading/4.3.0",
+      "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XmlSerializer/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
+      "path": "system.xml.xmlserializer/4.0.11",
+      "hashPath": "system.xml.xmlserializer.4.0.11.nupkg.sha512"
+    },
+    "System.Xml.XPath.XmlDocument/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
+      "path": "system.xml.xpath.xmldocument/4.0.1",
+      "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "WindowsAzure.Storage/7.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PWSqaIFaUvi2DgHeDotoRtv1new1m3jfwsb+T6nZfpVdYYIzyYUOFPBxJ0f8yHUq8C9Na8avNc08YsdgDIoTZg==",
+      "path": "windowsazure.storage/7.2.1",
+      "hashPath": "windowsazure.storage.7.2.1.nupkg.sha512"
+    },
+    "Microsoft.DotNet.Cli.Build.Framework/1.0.0-preview1-": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "shared-build-targets-utils/1.0.0-preview1-": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
